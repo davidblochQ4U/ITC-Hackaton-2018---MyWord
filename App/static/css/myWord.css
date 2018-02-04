@@ -1,0 +1,169 @@
+
+body {
+  overflow-x: hidden;
+  font-family:'Noto Serif' 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  border:0px;
+  background-image: url('../images/bg-02.jpg');
+  background-size: cover;
+}
+
+p {
+	font-size: 20px;
+    line-height: 1.75; }
+
+a {
+  color: #0084b4; }
+  a:hover {
+    color: #fec503; }
+
+/*-------------------  NAV BAR    ---------------------*/
+#logo{
+	position: absolute;
+	background: url('../images/myWordLogo.png');
+	background-size: 4.5em;
+	width:4.5em;
+	height:4.5em;
+	float:left;
+	margin-top: 30px;
+	margin-left: 60px;
+} 
+
+.brand{
+  position: absolute;
+  text-decoration: none;
+  color: #0084b4;
+  font-size: 25px;
+  margin-left: 35px;
+  margin-top: 100px;
+  font-family:'Noto Serif';
+  font-weight: bold;
+}
+
+.brand:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.topnav {
+  overflow: hidden;
+  display: i
+  background-color: transparent;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #0084b4;
+  text-align: center;
+  padding: 14px 16px;
+  margin-right: 28px;
+  margin-top: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:'Noto Serif' sans-serif;
+
+}
+
+.topnav a:hover {
+  color: white;
+  background-color: #0084b4;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+
+/*--------------------  APPEAL  --------------------*/
+
+header.masthead {
+  text-align: center;
+  color: #0084b4;
+  text-shadow: 0 0 1px #000000cc;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -66px;}
+
+  header.masthead .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-right: 5%;
+    padding-left: 5%; 
+}
+
+    header.masthead .intro-text .intro-lead-in {
+      color: white;
+      font-size: 18px;
+      font-style: italic;
+      line-height: 20px;
+      margin-bottom: 20px;
+      margin-right: 5%
+      margin-left:5%;
+      font-family: 'Noto Serif', sans-serif;
+      text-shadow: 1px 1px 3px black;
+       }
+    header.masthead .intro-text .intro-heading {
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 40px;
+      margin-bottom: 25px;
+      font-family:'Noto Serif', Helvetica, Arial, sans-serif; 
+	}
+
+
+
+      @media (min-width: 768px) {
+    header.masthead .intro-text {
+    padding-top: 275px;
+    padding-bottom: 10px; 
+}
+    header.masthead .intro-text .intro-lead-in {
+      font-size: 30px;
+      font-style: italic;
+      line-height: 30px;
+      margin-bottom: 136px;
+      margin-left: 10%;
+      margin-right: 10%;
+      font-family: 'Noto Serif','Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+    header.masthead .intro-text .intro-heading {
+      font-size: 51px;
+      font-weight: 700;
+      line-height: 50px;
+      margin-bottom: 30px;
+      font-family: 'Noto Serif','Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+      margin-right: 10%
+      margin-left:16%;
+      margin-top: 30px;	
+  }     
+  }
+
+       .button2 {
+          background-color: #0084b4; 
+          border-color: #0084b4;
+          color: white; 
+          width: 200px;
+          height: 50px;
+          font-size: 21px;
+          font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+          font-weight: bold, 700px;
+          border-radius: .25em;
+          bottom: 250px;
+          border: 1px solid transparent;
+          line-height: 1.5;
+          transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+          margin-left: cal
+      }
+
+       .button2:hover {
+          background-color: white;
+          color: #0084b4;
+      }
+
+

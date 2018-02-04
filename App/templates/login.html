@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Word </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="../static/css/myWord.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel='stylesheet' type='text/css'>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+
+  <body>
+
+<!-- --------------    NAVBAR    ------------- -->
+  <div class="container-fluid navbar-fixed-top">
+    <div id="logo"></div>
+    <div class="navbar-header">
+      <a class="brand" href="#">My Word</a>
+    </div>
+  </div>
+
+<!-- --------------    MAIN PAGE    ------------- -->
+
+
+<header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-heading text-uppercase">
+            Secure your Social Media
+          </div>
+           <div class="intro-lead-in">
+          Get instantly alerted in case of ID theft <br>
+          <p>
+          My Word analyses your writing style and detects if an unauthorized author posts a message on your behalf. 
+          </p>
+           </div>
+
+
+<!-- Twitter Connect button -->
+  <div class="container-fluid">
+
+    {% block body %}
+       <a href="{{ url_for('login') }}">
+        <button type="button" class="button button2" data-toggle="modal" data-target="#myModal">Twitter Connect</button>
+      </a>
+     {% endblock %}
+
+      </div>
+
+  </header>
+
+    </body>
+
+<!--
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+<script src="./js/creativity.js"></script>
+!-->
+
+</body>
+</html>
