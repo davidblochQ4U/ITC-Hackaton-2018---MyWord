@@ -24,4 +24,4 @@ tokenizer==1.0.1
 tqdm==4.19.5
 tweepy==3.5.0
 twython==3.6.0
-urllib3==1.22
+urllib3==1.26.5
